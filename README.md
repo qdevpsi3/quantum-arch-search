@@ -4,6 +4,7 @@
 [![paper](https://img.shields.io/static/v1.svg?label=Paper&message=arXiv:2104.07715&color=b31b1b)](https://arxiv.org/abs/2104.07715)
 [![packages](https://img.shields.io/static/v1.svg?label=Made%20with&message=Cirq&color=fbc43b)](https://quantumai.google/cirq)
 [![license](https://img.shields.io/static/v1.svg?label=License&message=GPL%20v3.0&color=green)](https://www.gnu.org/licenses/gpl-3.0.html)
+[![exp](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/qdevpsi3/quantum-arch-search/blob/main/notebooks/experiment.ipynb)
 </div>
 
 ## **Description**
