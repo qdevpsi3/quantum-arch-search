@@ -17,7 +17,7 @@ This repository contains an <ins>unofficial</ins> implementation of the <ins>Qua
 The customized <ins>Gym</ins> environments are built using <ins>Google Quantum Cirq</ins>.
 
 ## **Experiments**
-The experiments in the paper are reproduced in the reinforcement learning agents provided by 
+The experiments in the paper are reproduced using the reinforcement learning agents provided by 
 [Stable-Baselines3](https://app.neptune.ai/no-psi-nan/qrl-debug/experiments?viewId=standard-view). You can run the notebook locally or use this [Google Colab link](https://colab.research.google.com/github/qdevpsi3/quantum-arch-search/blob/main/notebooks/experiment.ipynb).
 
 ## **Details**
