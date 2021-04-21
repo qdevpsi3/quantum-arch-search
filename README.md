@@ -18,7 +18,7 @@ The customized <ins>Gym</ins> environments are built using <ins>Google Quantum C
 
 ## **Experiments**
 The experiments in the paper are reproduced using the reinforcement learning agents provided by 
-[Stable-Baselines3](https://app.neptune.ai/no-psi-nan/qrl-debug/experiments?viewId=standard-view). You can run the notebook locally or use this [Google Colab link](https://colab.research.google.com/github/qdevpsi3/quantum-arch-search/blob/main/notebooks/experiment.ipynb).
+[Stable-Baselines3](https://stable-baselines3.readthedocs.io/en/master/). You can run the notebook locally or use this [Google Colab link](https://colab.research.google.com/github/qdevpsi3/quantum-arch-search/blob/main/notebooks/experiment.ipynb).
 
 ## **Details**
 The agent design the quantum circuit by taking actions in the environment. Each <ins>action</ins> corresponds to a <ins>gate</ins> applied on some wires. The goal is to build a <ins>circuit</ins> *U* such that generates the <ins>target</ins> n-qubit quantum state that belongs to the environment and hidden from the agent. At each time-step, the agent receives a <ins>penalty</ins> if the <ins>fidelity</ins> between the resulting quantum state and the target is below some threshold. Otherwise, the game stops and the agent receives the fidelity minus the penalty. The environment <ins>state</ins> is computed using a pre-fixed set of <ins>observables</ins>.
