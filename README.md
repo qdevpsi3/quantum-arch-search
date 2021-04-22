@@ -103,7 +103,7 @@ You can train your agent and evaluate it using :
 ```python
 state = env.reset()
 done = False
-while not False:
+while not done:
     action = agent.predict(state)
     state, reward, done, info = env.step(action)
     env.render()
@@ -114,6 +114,21 @@ The `info` dictionary contains the *Cirq* circuit and the *Fidelity* measure.
 ### *Rendering*
 You can also render the environment to see how the agent is acting.
 
-<img src="./render/env.gif" width="400">
+```python
+import time
+from IPython.display import clear_output
+
+env = gym.make('BasicTwoQubit-v0')
+
+_ = env.reset()
+for _ in range(10):
+    action = env.action_space.sample()
+    _ = env.step(action)
+    # render
+    clear_output(wait=True)
+    env.render()
+    time.sleep(1)
+```
+<img src="./render/env.gif" width="600">
 
 
